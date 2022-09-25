@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+    float: left;
+    text-align: center;
+    margin: 15px 25px;
+}
+.Navigation{
+    background-color: black;
+    width: auto;
+    overflow: hidden;
+    padding: 5px;
+    margin: 2px 2px;
+    border-radius: 25px;
+
+}
+ul li a {
+    text-decoration: none;
+    padding: 3px 3px;
+    font-size: 20px;
+    color: rgb(24, 208, 11);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul li a:hover{
+    color: darkturquoise;
+}
+body{
+    background-color: rgb(149, 0, 255);
+}
+.search{
+    float: right;
+    border-radius: 5%;
+    position: absolute ;
+    padding: 0px 1340px ;
+}
+.Navigation input{
+border: 2px;
+border-radius: 15px;
+height: 25px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
